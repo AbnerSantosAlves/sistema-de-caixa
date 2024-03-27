@@ -12,15 +12,15 @@
     <div class="container">
         <div class="row">
           <div class="col-sm">
-            <form action="calcular.php" method="post">
+            <form action="calculo.php" method="POST">
                 <p class="title-form">Preencha o formulário</p>
-                <input type="text" placeholder="Nome" id="nm_cliente" name="nm_cliente"><br><br>
-                <input type="text" placeholder="Nome do 1º Produto" id="nm_primeiro_produto">
+                <input type="text" placeholder="Nome" id="nm_cliente" name="nome_Cliente"><br><br>
+                <input type="text" placeholder="Nome do 1º Produto" id="nm_primeiro_produto" name="nm1">
                 <input type="number" placeholder="Valor" id="n1" name="n1">
-                <input type="text" placeholder="Nome do 2º Produto" id="nm_segundo_produto">
+                <input type="text" placeholder="Nome do 2º Produto" id="nm_segundo_produto" name="nm2">
                 <input type="number" placeholder="Valor" id="n2" name="n2"><br><br>
 
-                <input type="text" placeholder="Valor pago" id="valor_pago"><br><br>
+                <input type="number" placeholder="valor" id="valor" name="valorPago"><br><br>
                 <input type="submit" value="calcular">
             </form>
           </div>

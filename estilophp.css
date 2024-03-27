@@ -1,0 +1,16 @@
+body{
+    background-color: #F2F2F2;
+}
+
+.nota-fiscal{
+    color: black;
+    border: 1px solid white;
+    padding: 40px;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+}
+
+.title{
+    font-size: 18px;
+}
