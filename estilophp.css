@@ -6,11 +6,22 @@ body{
     color: black;
     border: 1px solid white;
     padding: 40px;
-    width: 800px;
+    width: 500px;
     height: 500px;
     background-color: white;
+    margin-top: 5%;
 }
 
 .title{
     font-size: 18px;
+}
+
+.informacoes{
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+.nomeCliente{
+    margin-top: 15%;
 }
